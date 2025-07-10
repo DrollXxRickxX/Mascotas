@@ -1,0 +1,41 @@
+using System;
+
+namespace mascotas
+{
+    class Mascota
+    {
+        public void nombre()
+        {
+            Console.WriteLine("Nombre: Gato ");
+        }
+        public void Comida()
+        { 
+        Console.WriteLine("Tipo: Carnivoro ");
+        }
+        public void Vida()
+        { 
+        Console.WriteLine("Años de vida: 20 ");
+        }
+        public void Sonido()
+        { 
+        Console.WriteLine("Sonido: Miaaaau");
+        }
+
+
+        class program
+        {
+            static void Main(string[] args)
+            
+            { 
+                Mascota informacion = new Mascota();
+
+                informacion.nombre();
+                informacion.Comida();
+                informacion.Sonido();
+                informacion.Vida();
+            
+            }
+        
+        }  
+    }
+}
