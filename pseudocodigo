@@ -1,0 +1,29 @@
+nombre Mascota
+
+definir clase mascota 
+
+string nombre 
+int añosVida
+string clasificacion
+string sonido
+
+public mascota (string nom, int vida, string clas, string son)
+
+nombre= nom 
+añosVida = vida 
+clasificaion= clas
+sonido = son
+
+public void mostrarinformacion
+
+escribir "nombre" + nombre 
+escribir "Años de vida" + añosVida 
+escribir "sonido " + sonido 
+escribir "Clasificacion "+ clasificacion
+
+ Main principal 
+
+mascota Mimascota = nueva mascota ("Gato", 13- 20,"Carnivoro" )
+
+fin programa
+
