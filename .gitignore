@@ -1,0 +1,49 @@
+# Archivos de compilación y binarios
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Archivos de usuario o caché
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+
+# Archivos de logs
+*.log
+
+# Configuración de Rider, VSCode y otros editores (si usas alguno)
+.vscode/
+.idea/
+
+# Archivos temporales
+*.tmp
+*.temp
+*~
+
+# Configuración de paquetes y dependencias locales
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Archivos generados por dotnet
+project.assets.json
+*.deps.json
+
+# Archivos de publicación
+publish/
+out/
+
+# Archivos específicos de Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos ocultos innecesarios
+*.swp
+*.bak
