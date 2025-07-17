@@ -21,9 +21,20 @@ escribir "Años de vida" + añosVida
 escribir "sonido " + sonido 
 escribir "Clasificacion "+ clasificacion
 
+public void sonido (string sonidito)
+console.writeline "sonido: "+ sonidito
+
+public void edadHumana ()
+int total;
+total = 13 * 7
+console.writeline "edad en humanos es: " + total
+
+
  Main principal 
 
 mascota Mimascota = nueva mascota ("Gato", 13- 20,"Carnivoro" )
+nuevamascota.sonido 
+nuevamascota.edadHumana ()
 
 fin programa
 
