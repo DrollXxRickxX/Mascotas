@@ -4,21 +4,28 @@ namespace mascotas
 {
     class Mascota
     {
-        public void nombre()
+        public void nombre(string name)
         {
-            Console.WriteLine("Nombre: Gato ");
+            Console.WriteLine("Nombre: "+ name);
         }
-        public void Comida()
+        public void Comida(string carne)
         { 
-        Console.WriteLine("Tipo: Carnivoro ");
+        Console.WriteLine("Tipo: " + carne);
         }
-        public void Vida()
+        public void Vida(int edad )
         { 
-        Console.WriteLine("Años de vida: 20 ");
+        Console.WriteLine("Años de vida: " + edad );
         }
-        public void Sonido()
+        public void Sonido(string sonidito)
         { 
-        Console.WriteLine("Sonido: Miaaaau");
+        Console.WriteLine("Sonido: "+ sonidito);
+        }
+        public void EdadHumana()
+        {
+            int total;
+            total = 13 * 7;
+            Console.WriteLine("La edad en humanos es: " + total );
+        
         }
 
 
@@ -29,11 +36,13 @@ namespace mascotas
             { 
                 Mascota informacion = new Mascota();
 
-                informacion.nombre();
-                informacion.Comida();
-                informacion.Sonido();
-                informacion.Vida();
+                informacion.nombre( "Gato");
+                informacion.Comida( "Carnivoro");
+                informacion.Sonido("Miaaau");
+                informacion.Vida( 13 );
+                informacion.EdadHumana();
             
+                
             }
         
         }  
